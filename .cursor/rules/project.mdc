@@ -1,0 +1,17 @@
+---
+description: |
+  Enforces strict adherence to project documentation in the `docs/` folder.
+globs: []
+alwaysApply: true
+---
+
+# Project Documentation Rule
+
+- Before answering any question, consult the documentation in the `docs/` directory at the project root.
+- Use only information explicitly found in `docs/`. Do not rely on assumptions or outside sources.
+- If the required answer is not present in `docs/`, respond with:  
+  `⚠️ Not found in docs — please update the documentation.`
+- Do not invent or infer missing details. Only provide what is documented.
+- When referencing, specify the relevant file and section from `docs/` if possible.
+- If multiple documented answers exist, choose the one most clearly and explicitly stated in `docs/`.
+- Treat the contents of `docs/` as the sole authority for all features, APIs, and project decisions.
